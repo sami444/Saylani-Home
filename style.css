@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+header {
+    background-color: rgb(49, 109, 195);
+    height: 50px;
+}
+.A3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+}
+.A4 {
+    flex: 3;
+    font-size: 14px;
+    margin-top: 3px;
+}
+.style {
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 7px;
+    padding: 4px 10px 4px 10px;
+    line-height: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.links {
+    list-style: none;
+    display: inline-block;
+    line-height: 1.7;
+}
+.style:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    transition: all 0.5s;
+}
+.A5 {
+    flex: 10;
+    line-height: 1.7;
+    padding: 5px;
+}
+div p {
+    padding: 5px;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.A6 {
+    flex: 5;
+    padding: 8px;
+    line-height: 1.7;
+    
+}
+button {
+    padding: 5px;
+    color: rgb(139, 167, 84);
+    border: 1px solid rgb(139, 167, 84);
+    width: 100px;
+    cursor: pointer;
+}
+nav {
+    background-color: white;
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    border-bottom: 1px solid gray;
+    box-shadow: 0 1px 5px grey;
+    z-index: 1;
+}
+#check {
+    float: right;
+    margin-top: 28px;
+    display: none;
+}
+.checkbtn {
+    font-size: 30px;
+    float: right;
+    color: rgb(49, 109, 195);
+    margin-right: 20px;
+    cursor: pointer;
+    display: none;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: 0.3s;
+}
+.A9 {
+    width: 17%;
+    height: 70px;
+    margin-left: 145px;
+    float: left;
+}
+.saylani {
+    margin-top: 9px;
+    height: 53px;
+}
+.menu {
+    background-color: white;
+    float: right;
+    margin-right: 20px;
+    width: 62%;
+    height: 70px;
+}
+.menu li {
+    display: inline-block;
+    position: relative;
+    list-style: none;
+    line-height: 1.7;
+    padding: 18px 0;
+    font-size: 14px;
+}
+.menu li a {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    text-align: center;
+    color: black;
+    font-family: sans-serif;
+    line-height: 1.4;
+    font-size: 14px;
+    padding: 8px 8px;
+    cursor: pointer;
+}
+.home a,.menu li a:hover {
+    background-color: rgb(49, 109, 195);
+    border-radius: 30px;
+    color: white;
+}
+.menu li a:hover{
+    transition: all 0.5s;
+}
+.menu .home a {
+    color: white;
+}
+.menu .fa {
+    margin-right: 8px;
+}
+.menu .fa-angle-down {
+    margin-left: 3px;
+}
+.sub-menu-1 {
+    display: none;
+    position: absolute;
+    bottom: -0.5px;
+    float: left;
+}
+.menu li:hover .sub-menu-1 {
+    display: block;
+    position: absolute;
+}
+.sub-menu-1 ul {
+    display: block;
+    list-style: none;
+    background-color: white;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+}
+.sub-menu-1 ul li{
+    position: relative;
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    line-height: 1.4;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+.sub-menu-1 ul li a {
+    font-size: 13px;
+    text-align: left;
+}
+.menu li:hover .sub-menu-1 ul li a {
+    border-radius: 0;
+    width: 170px;
+    text-align: left;
+    text-decoration: none;
+    font-size: 13px;
+    cursor: pointer;
+    font-family: sans-serif;
+    transition: all 0.5s;
+}
+.menu li:hover .sub-menu-1 ul:hover {
+    position: absolute;
+    display: block;
+    list-style: none;
+    background-color: white;
+}
+
+.menu li:hover .sub-menu-1 ul li {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    line-height: 1.4;
+    width: 198px;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+.menu li:hover .sub-menu-1 ul li a:hover {
+    border-radius: 0;
+    text-align: left;
+    text-decoration: none;
+    font-size: 13px;
+    cursor: pointer;
+    font-family: sans-serif;
+    padding-left: 20px;
+    transition: 0.5s;
+}
+.fa-angle-right {
+    float: right;
+}
+.sub-menu-2 {
+    position: absolute;
+    display: none;
+}
+.hover-1:hover .sub-menu-2 {
+    position: absolute;
+    display: inline-block;
+}
+.sub-menu-3 {
+    display: none;
+}
+.hover-2:hover .sub-menu-3 {
+    position: absolute;
+    display: inline-block;
+}
+.adjust-1 {
+    position: absolute;
+    right: 270px;
+}
