@@ -1,0 +1,432 @@
+.A10 {
+    width: 100%;
+    height: 100%;
+}
+.A10 img {
+    max-width: 100%;
+    min-width: 1%;
+    max-height: 100%;
+    min-height: 1%;
+    cursor: pointer;
+}
+.A11 {
+    width: 80%;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.A11 p {
+    color: white;
+    background-color: rgb(49, 109, 195);
+    line-height: 1;
+    margin-top: 5px;
+    font-family: sans-serif;
+}
+.font-1 {
+    color: rgb(0, 255, 0);
+}
+.font-2 {
+    color: white;
+}
+.A11 p span .font-3 {
+    color: blue;
+}
+.A12 {
+    width: 100%;
+    min-height: 1%;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.A13 {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    padding-bottom: 100px;
+}
+.A14 {
+    width: 80%;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.A14 h1 {
+    letter-spacing: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(49, 109, 195);
+    font-family: century;
+}
+.A14 h1 span {
+    color: rgb(66, 121, 0);
+}
+.A15 {
+    margin-top: 10px;
+    width: 20%;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(66, 121, 0);
+    text-align: center;
+}
+.A15 span {
+    border-bottom: 1px solid rgb(66, 121, 0);
+}
+.A15 img {
+    height: 40px;
+    width: 40px;
+}
+.A16 {
+    margin-top: 25px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.A16 p {
+    text-align: justify;
+    color: rgb(102, 102, 102);
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 1.7;
+}
+.A17 {
+    min-height: 1%;
+    max-height: 100%;
+    background-color: rgb(7, 89, 204);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.A18 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    width: 90%;
+    min-height: 1%;
+    max-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.A19 {
+    width: 25%;
+    height: 100%;
+    text-align: center;
+    float: left;
+}
+.A19 h1 {
+    color: white;
+    font-size: 60px;
+    font-family: century;
+    padding-bottom: 5px;
+}
+.A19 h2 {
+    color: white;
+    font-size: 16px;
+    font-family: century;
+    text-transform: uppercase;
+}
+.A19 h2 span {
+    color: rgb(0, 255, 0);
+}
+.A20 {
+    height: 100%;
+}
+.A21 {
+    width: 80%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 60px;
+}
+.A22 {
+    height: 100%;
+}
+.A23 {
+    height: 100%;
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.A24 {
+    width: 30.5%;
+    height: 185px;
+    float: left;
+    margin-left: 9px;
+    margin-right: 9px;
+    margin-bottom: 20px;
+    box-shadow: -5px 12px 20px 0px rgba(0, 0, 0, 0.16);
+    text-align: center;
+}
+.A24 img {
+    padding-top: 40px;
+}
+.A24 h3 {
+    text-transform: uppercase;
+    font-family: century;
+    color: rgb(49, 109, 195);
+    padding-top: 15px;
+}
+.A25 {
+    margin-top: 110px;
+    height: 100%;
+}
+.A26 {
+    width: 80%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.A27 {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.A28 {
+    height: 100%;
+    width: 65%;
+    float: left;
+}
+.A28 h2,.A32 h2 {
+    font-family: century;
+    font-size: 23px;
+    color: rgb(49, 109, 195);
+    text-transform: uppercase;
+}
+.A28 span,.A32 span {
+    border-bottom: 2px solid rgb(66, 121, 0);
+    color: rgb(66, 121, 0);
+}
+.A29 {
+    height: 100%;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.A30 {
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+.A31 {
+    height: 80px;
+    width: 90%;
+    float: right;
+}
+.A31 a {
+    float: left;
+    margin-top: 20px;
+}
+.A31 h4 {
+    text-transform: uppercase;
+    color: rgb(49, 109, 195);
+    font-family: century;
+    margin-top: 27px;
+    margin-left: 80px;
+}
+.A32 {
+    width: 309px;
+    height: 290px;
+    float: left;
+}
+.A32 p marquee {
+    width: 250px;
+    height: 200px;
+    color: rgb(102, 102, 102);
+    line-height: 1.7;
+    font-family: sans-serif;
+}
+.A32 p {
+    height: 240px;
+    text-align: left;
+}
+.A32 p marquee {
+    margin-top: 20px;
+}
+.A32 p marquee a {
+    color: blue;
+    text-decoration: none;
+    text-align: justify;
+}
+.A34 {
+    height: 100%;
+    width: 100%;
+    padding-top: 50px;
+}
+.A35 {
+    height: 100%;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.A36 {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.A37 {
+    width: 20%;
+    overflow: hidden;   
+}
+.A37 img {
+    transition: .5s;
+    max-width: 100%;
+    max-height: 100%;
+}
+.A37:hover img {
+    transform: scale(1.2);
+}
+footer {
+    height: 100%;
+    margin-top: 180px;
+    width: 100%;
+    background-color: rgb(37, 39, 46);    
+}
+.A38 {
+    height: 100%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.A39 {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 60px;
+    padding-bottom: 75px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.A40 {
+    height: 42px;
+    background-color: rgb(49, 109, 217);
+}
+.A41 {
+    width: 80%;
+    padding-top: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 18px;
+}
+.A41 p {
+    text-align: left;
+    line-height: 1;
+    font-size: 12px;
+    color: white;
+    font-family: sans-serif;
+}
+.A42 {
+    height: 100%;
+    width: 33.33%;
+}
+.A42 p {
+    padding-top: 20px;
+    text-align: left;
+    line-height: 1.6;
+    color: rgb(187, 187, 187);
+    font-family: sans-serif;    
+}
+.A42 ul {
+    height: 100%;
+    padding-top: 5px;
+    font-family: sans-serif;    
+    text-align: left;
+    list-style: none;
+    color: rgb(187, 187, 187);    
+}
+.A42 li {
+    line-height: 2;
+    font-size: 14px;
+    padding-left: 10px;
+}
+.A42 ul li .fa {
+    padding-right: 5px;
+    color: rgb(66, 121, 0);
+}
+.left {
+    float: left;
+    width: 40%;
+}
+.right {
+    float: left;
+    width: 54%;
+}
+.A43 {
+    width: 100%;
+    height: 50px;
+}
+.A43 h4 {
+    padding-top: 10px;
+    color: white;
+    margin-left: 15px;
+    border-bottom: 1px solid rgb(71, 71, 71); 
+    line-height: 1;
+}
+.A43 h4 span {
+    color: rgb(66, 121, 0);
+    border-bottom: 1px solid rgb(66, 121, 0);
+}
+.A44 {
+    height: 100px;
+}
+.A45 {
+    width: 90%;
+    height: 100px;
+    padding-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.A45 h4 {
+    color: white;
+}
+.A45 ul {
+    list-style: none;
+    height: 40px;
+    padding: 0;
+    margin-top: 20px;
+}
+.A45 ul li {
+    float: left;
+    cursor: pointer;
+    text-align: center;
+    line-height: 1.7;
+    font-size: 14px;
+    padding: 0;
+    background-color: rgb(49, 109, 217);
+    margin-right: 5px;
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+.A45 ul li:hover {
+    transition: all 0.5s;
+    background-color: rgb(80, 130, 221);
+    transform: scale(1.2);
+}
+.A45 ul li a {
+    padding-left: 5px;
+    text-decoration: none;
+    line-height: 1.7;
+    position: relative;
+    top: 3px;
+}
+.A45 ul li a .fa {
+    color: white;
+    width: 25px;
+    height: 25px;
+}

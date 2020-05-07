@@ -1,0 +1,480 @@
+@media (max-width: 1435px) {
+    header {
+        line-height: 1.7;
+        max-height: 400px;
+        min-height: 50px;
+        height: 50px;
+    }
+    .A3 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-right: auto;
+        margin-left: auto;
+        width: 90%;
+    }
+    .A4 {
+        flex: 4;
+        font-size: 14px;
+        margin-top: 3px;
+    }
+    .A5 {
+        flex: 10;
+        line-height: 1.7;
+        padding: 5px;
+    }
+    .A6 {
+        flex: 6;
+        padding: 8px;
+        line-height: 1.7;
+        }
+    button {
+        padding: 5px;
+        color: rgb(139, 167, 84);
+        border: 1px solid rgb(139, 167, 84);
+        width: 100px;
+        cursor: pointer;
+    }
+    .A9 {
+        width: 17%;
+        height: 70px;
+        margin-left: 70px;
+        float: left;
+    }
+    .menu {
+        float: right;
+        margin-right: 30px;
+        width: 62%;
+        height: 70px;
+    }
+    .A21 {
+        width: 80%;
+    }
+    .A26 {
+        width: 80%;
+    }
+    .A28 {
+        width: 65%;
+    }
+    
+}
+@media (max-width: 1260px) {
+    .A9 {
+        width: 17%;
+        height: 70px;
+        margin-left: 65px;
+        float: left;
+    }
+    .menu {
+        float: left;
+        margin-left: 110px;
+        width: 65%;
+        height: 70px;
+    }
+    .left, .right {
+        float: none;
+        width: 100%;
+    }
+}
+@media (max-width: 1200px) {
+    header {
+        line-height: 1.7;
+        max-height: 400px;
+        min-height: 80px;
+    }
+    .A3 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-right: auto;
+        margin-left: auto;
+        width: 90%;
+    }
+    .A4 {
+        flex: 3;
+        font-size: 14px;
+        margin-top: 15px;
+    }
+    .A5 {
+        flex: 5.5;
+        line-height: 1.7;
+        padding: 5px;
+    }
+    .A6 {
+        flex: 5;
+        padding: 8px;
+        line-height: 1.7;
+        
+    }
+    button {
+        margin-top: 17px;
+        padding: 5px;
+        color: rgb(139, 167, 84);
+        border: 1px solid rgb(139, 167, 84);
+        width: 100px;
+        cursor: pointer;
+    }
+    .A9 {
+        width: 17%;
+        height: 70px;
+        margin-left: 60px;
+        float: left;
+    }
+    .menu {
+        float: left;
+        margin-left: 20px;
+        width: 72%;
+        height: 70px;
+    }
+    .A21 {
+        width: 90%;
+    }
+    .A26 {
+        width: 90%;
+    }
+}
+@media (max-width: 1085px) {
+    .A9 {
+        width: 17%;
+        height: 70px;
+        margin-left: 5px;
+        float: left;
+    }
+    .menu {
+        float: left;
+        margin-left: 35px;
+        width: 76%;
+        height: 70px;
+    }
+    .A18 {
+        width: 90%;
+    }
+}
+@media (max-width: 1025px) {
+    .checkbtn {
+        display: block;
+    }
+    .menu {
+        overflow-x: hidden;
+        overflow-y: scroll;
+        position: relative;
+        width: 100%;
+        height: 0px;
+        background-color: white;
+        top: 1px;
+        margin-left: 0;
+        text-align: center;
+        transition: all 0.5s;
+    }
+    .menu li {
+        width: 100% !important;
+        display: none;
+        padding: 1px;
+        text-align: left;
+    }
+    .menu li a {
+        padding: 15px;
+        font-family: sans-serif;
+        width: 100%;
+        border-radius: 0;
+        text-align: left;
+    }
+    .menu li:hover {
+        width: 100%;
+        text-align: left;
+    }
+    .menu li a:hover {
+        padding-left: 30px;
+        width: 100%;
+        border-radius: 0;
+        background-color: rgb(49, 109, 195);
+        text-align: left;
+    }
+    .fa-angle-down {
+        display: none;
+    }
+    .sub-menu-1 ul {
+        display: none;
+    }
+    .menu li:hover .sub-menu-1 ul li a {
+        width: 1000px;
+    }
+    #check:checked ~ .menu {
+        height: 360px;
+        transition: all 0.5s;
+    }
+    #check:checked ~ .menu li {
+        display: block;
+    }
+    .A9 {
+        margin-left: 50px;
+    }    
+}
+@media (max-width: 992px) {
+    .A3 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-right: auto;
+        margin-left: auto;
+        width: 100%;
+    }
+    .A4 {
+        flex: 4;
+        font-size: 14px;
+        margin-top: 3px;
+    }
+    .style {
+        display: inline-block;
+        margin-top: 25px;
+        margin-bottom: 7px;
+        padding: 4px 10px 4px 10px;
+        line-height: 15px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .A5 {
+        flex: 5.5;
+        line-height: 1.7;
+        padding: 5px;
+    }
+    .A6 {
+        flex: 7;
+        padding: 8px;
+        line-height: 1.7;
+        }
+    button {
+        margin-top: 17px;
+        padding: 5px;
+        color: rgb(139, 167, 84);
+        border: 1px solid rgb(139, 167, 84);
+        width: 100px;
+        cursor: pointer;
+    }
+    .A15 {
+        width: 25%;
+    }
+    .A19 {
+        width: 50%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .A21 {
+        width: 90%;
+    }
+    .A24 {
+        width: 45%;
+    }
+    .A26 {
+        width: 90%;
+    }
+    .A28 {
+        width: 100%;
+    }
+    .A32 {
+        margin-top: 50px;
+    }
+    .A35 {
+        width: 90%;
+    }
+    .A38 {
+        width: 90%;
+    }
+    .A41 {
+        width: 90%;
+    }
+}
+@media (max-width: 830px) {
+    header {
+        line-height: 1.7;
+        max-height: 400px;
+        min-height: 110px;
+    }
+    .A3 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-right: auto;
+        margin-left: auto;
+        width: 100%;
+    }
+    .A4 {
+        flex: 4.5;
+        font-size: 14px;
+        margin-top: 3px;
+    }
+    .style {
+        display: inline-block;
+        margin-top: 40px;
+        margin-bottom: 7px;
+        padding: 4px 10px 4px 10px;
+        line-height: 15px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .A5 {
+        flex: 4;
+        line-height: 1.7;
+        padding: 5px;
+    }
+    .A6 {
+        flex: 7;
+        padding: 8px;
+        line-height: 1.7;
+        
+    }
+    button {
+        margin-top: 32px;
+        padding: 5px;
+        color: rgb(139, 167, 84);
+        border: 1px solid rgb(139, 167, 84);
+        width: 100px;
+        cursor: pointer;
+    }
+    .A28 {
+        width: 100%;
+    }
+}
+@media (max-width: 768px) {
+    header {
+        line-height: 1.7;
+        max-height: 400px;
+        min-height: 180px;
+    }
+    .A3 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 90%;
+    }
+    .A4 {
+        flex: 4;
+        font-size: 14px;
+        margin-top: 3px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .style {
+        text-align: center;
+        height: 30px;
+        width: 40px;
+        display: inline-block;
+        margin-top: 10px;
+        margin-bottom: 7px;
+        padding: 4px 10px 4px 10px;
+        line-height: 1.7;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .style a {
+        line-height: 1.7;
+        position: relative;
+        top: 5px;
+    }
+    .A5 {
+        flex: 10;
+        line-height: 1.7;
+        padding: 5px;
+        margin-left: auto;
+        margin-right: auto
+    }
+    .A6 {
+        flex: 6;
+        padding: 8px;
+        line-height: 1.7;
+        margin-left: auto;
+        margin-right: auto
+    }
+    button {
+        position: relative;
+        bottom: 17px;
+        padding: 5px;
+        color: rgb(139, 167, 84);
+        border: 1px solid rgb(139, 167, 84);
+        width: 100px;
+        cursor: pointer;
+    }
+   .A15 {
+       width: 35%;
+   }
+   .A13 {
+       width: 90%;
+   }
+   .A11 {
+       width: 90%;
+   }
+   .A19 {
+    width: 50%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    }
+}
+@media (max-width: 660px) {
+    .A39 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .A42 {
+        width: 100%;
+    }
+    .A42>ul>li {
+        float: left;
+        width: 47%;
+    }
+    .A43 {
+        margin-top: 20px;
+    }
+    .A45 {
+        width: 95%;
+        margin-top: 20px;
+    }
+}
+@media (max-width: 576px) {
+    header {
+        max-height: 400px;
+        min-height: 210px;
+    }
+    .A14 {
+        width: 100%;
+        margin: 0;
+    }
+    .A14 h1 {
+        font-size: 30px;
+    }
+    .A15 {
+        width: 50%;
+    }
+    .A14 .size {
+        font-size: 25px;
+    }
+    .A19 {
+        width: 100%;
+    }
+    .A21 {
+        width: 100%;
+    }
+    .A24 {
+        width: 95%;
+    }
+    .A30 {
+        width: 100%;
+    }
+    .A37 {
+        width: 100%;
+        padding-bottom: 30px;
+    }
+    .A42>ul>li {
+        float: left;
+        width: 100%;
+    }
+    .A43 h4 {
+        margin: 10px;
+    }
+    footer {
+        margin-top: 120px;
+    }
+    .A39 {
+        padding-bottom: 60px;
+    }
+}
